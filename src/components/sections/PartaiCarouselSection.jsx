@@ -22,7 +22,7 @@ export function PartaiCarouselSection({ partai = [] }) {
           <h2 className="text-3xl md:text-4xl font-bold text-primary">
             Partai Politik
           </h2>
-          <div className="w-16 h-0.5 bg-[#cc0000] my-4 rounded-full"></div>
+          <div className="w-16 h-0.5 mx-auto md:mx-0 bg-[#cc0000] my-4 rounded-full"></div>
           <p className="text-gray-700 mb-6 leading-relaxed">
             Kabupaten Badung memiliki 15 partai politik terverifikasi KPU dengan
             dukungan tersebar di enam kecamatan. Partai politik berperan sebagai

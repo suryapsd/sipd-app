@@ -21,7 +21,7 @@ export function HeroSectionPage({
           <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-primary leading-tight">
             {title}
           </h2>
-          <div className="w-20 h-0.5 md:h-1 bg-[#cc0000] mt-4 mb-8 mx-auto md:mx-0 rounded-full"></div>
+          <div className="w-20 h-0.5 bg-[#cc0000] mt-4 mb-8 mx-auto md:mx-0 rounded-full"></div>
           <p className="text-gray-700 text-sm md:text-base leading-relaxed">
             {desc}
           </p>

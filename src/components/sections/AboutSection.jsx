@@ -15,7 +15,7 @@ export function AboutSection() {
 
   return (
     <section className="max-w-7xl mx-auto px-6 py-20">
-      <h2 className="text-3xl md:text-4xl font-bold text-primary">
+      <h2 className="text-3xl md:text-4xl font-bold text-primary text-center">
         Badan Kesatuan Bangsa dan Politik <br />
         Kabupaten Badung
       </h2>
