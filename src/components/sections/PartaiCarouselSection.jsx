@@ -75,8 +75,8 @@ export function PartaiCarouselSection({ partai = [] }) {
                   </CarouselItem>
                 ))}
               </CarouselContent>
-              <CarouselPrevious />
-              <CarouselNext />
+              <CarouselPrevious className="left-0 md:-left-10" />
+              <CarouselNext className="right-0 md:-right-10" />
             </Carousel>
           )}
         </div>
