@@ -10,6 +10,7 @@ import {
 } from "@/components/ui/carousel";
 import { Button } from "../ui/button";
 import { ArrowRight } from "lucide-react";
+import { Link } from "react-router-dom";
 
 export function PartaiCarouselSection({ partai = [] }) {
   const plugin = useRef(Autoplay({ delay: 2000, stopOnInteraction: true }));
@@ -29,9 +30,11 @@ export function PartaiCarouselSection({ partai = [] }) {
             sarana pendidikan politik, penyalur aspirasi, dan penghubung
             masyarakat dengan pemerintah daerah.
           </p>
-          <Button variant="outline">
-            Selengkapnya
-            <ArrowRight />
+          <Button asChild variant="outline">
+            <Link to="/partai">
+              Selengkapnya
+              <ArrowRight className="ml-2 h-4 w-4" />
+            </Link>
           </Button>
         </div>
 
